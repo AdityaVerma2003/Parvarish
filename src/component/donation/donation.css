@@ -1,0 +1,71 @@
+#Dcontact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url("/Users/adityaverma/parvarish/parvarish-main/src/assets/donationimg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    background-size: 100% 100%;
+    z-index:-1;
+}
+#Dcontact h5{
+    font-size: 40px;
+    color: white;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-top: 20px;
+    position: relative;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    -webkit-text-stroke: 1px #ffffff;
+	text-shadow: 0px 1px 4px #23430C;
+}
+#Dcontact h5::after{
+
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    height: 4px;
+    width: 100px;
+    border-radius: 2px;
+    background-color: rgb(255, 4, 4);
+}
+
+.Dcontact-container{
+display: grid;
+grid-template-columns: repeat(1,1fr);
+justify-content: center;
+align-items: center;
+text-align: center;
+width: 50vw;
+}
+
+
+
+.Dbtn{
+    margin-top: 15px;
+    width: 10vw;
+    height: 6vh;
+    font-weight: 600;
+    text-transform: capitalize;
+    background-color: red;
+    color: rgb(255, 255, 255);
+    outline: none;
+}
+
+.Dbtn:hover{
+    background-color: #fff;
+    color: red;
+}
+
+@media (min-width: 320px)
+and (max-width:480px){
+    .Dbtn{
+        width: 19vw;
+    }
+
+}
