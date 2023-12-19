@@ -12,11 +12,11 @@ const Contactus = () => {
         <div class="left"></div>
         <div class="right">
       <h5>Get In Touch</h5>
-        <form action="https://docs.google.com/forms/d/e/1FAIpQLSfdlXQgNohw-rdYQ8jmzQc9275PrmB9skCYpXP3PYNbCOGTvg/formResponse" method='post'>
-          <input type="text"  class ="field" name="entry.2005620554" placeholder="Full Name"   />
-          <input type="email" class ="field" name="entry.1045781291" placeholder="Email"  />
+        <form action="https://docs.google.com/forms/d/e/1FAIpQLSeoQDzJ-vpW4SFpZGiqBSKDlv5GTiGBfuH5q5t-CQ-Jc3_PFQ/formResponse" method='post'>
+          <input type="text"  class ="field" name="entry.1500259699" placeholder="Full Name"   />
+          <input type="email" class ="field" name="entry.2039049423" placeholder="Email"  />
           <textarea
-            name="entry.1065046570"
+            name="entry.459899299"
             placeholder=" Message"
             id=""
             cols="30"
