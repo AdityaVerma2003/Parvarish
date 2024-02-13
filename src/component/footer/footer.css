@@ -1,0 +1,157 @@
+.Fcontainer{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item .mb2{
+    color:  rgba(11, 11, 11, 0.75)!important;
+}
+.clr{
+    color: antiquewhite;
+}
+.py-5{
+    background: white;
+    color: black;
+    width: 100vw;
+    height: 74vh;
+}
+
+.offset1 li{
+    color: white;
+}
+.col-2{
+    margin-left: 10%;
+}
+.col-2 img{
+    width: 12vw;
+    height: 25vh;
+}
+img,svg{
+    color: white;
+}
+.col-3 h5{
+    font-size: 25px;
+    padding-left: 0px;
+}
+.col-3{
+    margin-left: 0;
+    font-size: 20px;
+} 
+.col-3 ul li{
+    font-size: 20px;
+}
+.col-3 ul li a{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.6);
+}
+.col-3 ul li a:hover{
+    color: rgb(0, 0, 0);
+}
+.d-flex{
+    background-color: black;
+    color: white;
+}
+.d-flex p{
+margin-left: 5%;
+font-size: 20px;
+}
+
+.d-flex ul{
+    margin-right: 5%;
+}
+.ms-3{
+    font-size: 20px;
+}
+
+
+@media (min-width: 320px)
+and (max-width:480px){
+    .py-5{
+        height: 80vh;
+    }
+.col-2 {
+    margin-left: 5%;
+}
+.col-2 img{
+    height: 12vh;
+    width: 12vw;
+}
+.d-flex p{
+    margin-left: 3%;
+    font-size: 15px;
+}
+.col-3{
+    margin-left:40px;
+}
+.col-3 h5{
+    font-size: 15px;
+    padding-left: 0px;
+}
+.col-3 ul li a{
+    font-size: 15px;
+}
+}
+
+@media (min-width: 480px)
+    and (max-width:768px) {
+    .py-5{
+        height: 100vh;
+    }
+.col-2 {
+    margin-left: 5%;
+}
+.col-2 img{
+    height: 16vh;
+    width: 20vw;
+
+}
+.col-3{
+    margin-left:40px;
+}
+.col-3 h5{
+    padding-left: 0px;
+}
+}
+
+@media (min-width: 768px)
+and (max-width:1024px){
+.py-5{
+    width: 100vw;
+    height: 90vh;
+}
+.col-2 img{
+    height: 19vh;
+    width: 17vw;
+}
+.col-3{
+    margin-left:35px;
+}
+}
+@media (min-width: 1024px)
+and (max-width:1200px){
+    .py-5{
+        height: 90vh;
+    }
+    .col-2{
+        margin-left:6% ;
+    }
+    .col-2 img{
+        height: 30vh;
+        width: 16vw;
+    }
+}
+@media (min-width: 1200px)
+{
+    .py-5{
+        height: 87vh;
+    }
+    .col-2 img{
+        height: 30vh;
+        width: 15vw;
+    }
+}
+@media (min-width: 1400px){
+    .py-5{
+        height: 75vh;
+    }
+}
